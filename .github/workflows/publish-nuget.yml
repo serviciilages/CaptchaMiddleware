@@ -40,4 +40,5 @@ jobs:
         run: |
           dotnet nuget push nupkgs/*.nupkg \
             --api-key ${{ secrets.PUBLISH_NUGET }} \
-            --source "https://api.nuget.org/v3/index.json"
+            --source "https://api.nuget.org/v2/index.json" \
+            --skip-duplicate
