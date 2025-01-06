@@ -38,7 +38,7 @@ jobs:
 
       - name: Publish to NuGet.org
         run: |
-          dotnet nuget push nupkgs/*.nupkg \
+          dotnet nuget push "*.nupkg" \
             --source "https://api.nuget.org/v3/index.json" \
             --api-key ${{ secrets.PUBLISH_NUGET }} \
             --skip-duplicate
