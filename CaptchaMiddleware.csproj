@@ -10,7 +10,7 @@
     <ProduceReferenceAssembly>False</ProduceReferenceAssembly>
     <NoDefaultLaunchSettingsFile>true</NoDefaultLaunchSettingsFile>
     <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
-    <Version>0.2.0.0</Version>
+    <Version>0.2.0.1</Version>
     <Title>CaptchaMiddleware</Title>
     <RepositoryUrl>https://github.com/serviciilages/CaptchaMiddleware.git</RepositoryUrl>
     <Description>A middleware for siteverify of Turnstile and ReCaptcha</Description>
