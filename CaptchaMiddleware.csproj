@@ -11,11 +11,12 @@
     <NoDefaultLaunchSettingsFile>true</NoDefaultLaunchSettingsFile>
     <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
     <Version>0.2.0.2</Version>
-    <Title>MultyCaptchaMiddleware</Title>
+    <Title>CaptchaMiddleware</Title>
     <RepositoryUrl>https://github.com/serviciilages/CaptchaMiddleware.git</RepositoryUrl>
     <Description>A middleware for siteverify of Turnstile and ReCaptcha</Description>
     <IncludeSymbols>False</IncludeSymbols>
     <PackageReadmeFile>README.md</PackageReadmeFile>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
   </PropertyGroup>
 
   <ItemGroup>
